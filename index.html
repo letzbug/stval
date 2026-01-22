@@ -13,17 +13,17 @@
     <div class="grain"></div>
     <div class="glow glow-a"></div>
     <div class="glow glow-b"></div>
-    <canvas id="hearts"></canvas>
+    <canvas id="hearts" aria-hidden="true"></canvas>
   </div>
 
   <main class="wrap">
-    <section class="card">
+    <section class="card" id="card" role="region" aria-label="Chèque cadeau Saint-Valentin">
       <div class="top">
         <div class="badge">
           <span class="dot"></span>
           Édition Saint-Valentin
         </div>
-        <div class="seal"><span>❤</span></div>
+        <div class="seal" aria-hidden="true"><span>❤</span></div>
       </div>
 
       <h1>
@@ -38,9 +38,9 @@
       </p>
 
       <ul class="bullets">
-        <li>✨ Valable sur l’ensemble de nos formations</li>
-        <li>🎁 Montant au choix</li>
-        <li>💌 Une attention personnelle, douce et élégante</li>
+        <li><span class="i">✨</span> Valable sur l’ensemble de nos formations</li>
+        <li><span class="i">🎁</span> Montant au choix</li>
+        <li><span class="i">💌</span> Une attention personnelle, douce et élégante</li>
       </ul>
 
       <div class="cta">
@@ -50,7 +50,7 @@
       </div>
 
       <footer class="footer">
-        UniPop • Saint-Valentin
+        <span>UniPop</span><span class="sep">•</span><span>Saint-Valentin</span>
       </footer>
     </section>
   </main>
