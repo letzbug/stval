@@ -9,65 +9,48 @@
 </head>
 
 <body>
-  <!-- Ambient background -->
   <div class="bg">
     <div class="grain"></div>
     <div class="glow glow-a"></div>
     <div class="glow glow-b"></div>
-    <div class="petals" aria-hidden="true"></div>
-    <canvas id="hearts" aria-hidden="true"></canvas>
+    <canvas id="hearts"></canvas>
   </div>
 
   <main class="wrap">
-    <section class="card" role="region" aria-label="Chèque cadeau Saint-Valentin">
+    <section class="card">
       <div class="top">
         <div class="badge">
           <span class="dot"></span>
           Édition Saint-Valentin
         </div>
-
-        <div class="seal" aria-hidden="true">
-          <div class="seal-inner">❤</div>
-        </div>
+        <div class="seal"><span>❤</span></div>
       </div>
 
       <h1>
-        Un cadeau<br />
+        Un cadeau<br>
         <span class="accent">très romantique</span>
       </h1>
 
       <p class="lead">
-        Offrez plus qu’un objet : offrez un <strong>moment à vivre</strong>.<br />
-        Le chèque cadeau UniPop ouvre la porte à des ateliers uniques, des découvertes
-        inspirantes et des souvenirs qui restent.
+        Offrez plus qu’un objet : offrez un <strong>moment à vivre</strong>.<br>
+        Le chèque cadeau UniPop ouvre la porte à des ateliers uniques,
+        des découvertes inspirantes et des souvenirs qui restent.
       </p>
 
-      <div class="divider" aria-hidden="true"></div>
-
       <ul class="bullets">
-        <li><span class="icon">✨</span> Valable sur l’ensemble de nos formations</li>
-        <li><span class="icon">🎁</span> Montant au choix</li>
-        <li><span class="icon">💌</span> Une attention personnelle, douce et élégante</li>
+        <li>✨ Valable sur l’ensemble de nos formations</li>
+        <li>🎁 Montant au choix</li>
+        <li>💌 Une attention personnelle, douce et élégante</li>
       </ul>
 
       <div class="cta">
-        <a class="btn" href="https://www.unipop.lu/bon-cadeau" target="_blank" rel="noopener">
+        <a class="btn" href="https://www.unipop.lu/bon-cadeau/" target="_blank" rel="noopener">
           💝 Offrir un chèque cadeau
         </a>
-
-        <button class="btn ghost" id="copyMsg" type="button" title="Copier un petit message">
-          📝 Copier un message
-        </button>
       </div>
 
-      <p class="fine" id="fineText">
-        Astuce : ajoutez un petit mot — <em>“Pour toi, pour nous, pour un moment magique.”</em>
-      </p>
-
       <footer class="footer">
-        <span class="mini">UniPop</span>
-        <span class="mini">•</span>
-        <span class="mini">Saint-Valentin</span>
+        UniPop • Saint-Valentin
       </footer>
     </section>
   </main>
@@ -75,4 +58,3 @@
   <script src="./script.js"></script>
 </body>
 </html>
-
